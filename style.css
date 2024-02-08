@@ -1,0 +1,68 @@
+hr {
+	border-color: cornflowerblue;
+}
+
+.img {
+	border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    margin: 30px 50px 0 30px;
+    background-position: center;
+    background-image: url(IMG_3593.JPG);
+    background-size: cover;
+    object-fit: contain;
+}
+
+.container {
+	margin: 5px auto;
+	text-align: center;
+}
+
+.container .header {
+	width: 800px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.container .header a{
+	text-decoration: none;
+	color: #111;
+}
+
+.container .header a:hover{
+	text-decoration: underline;
+}
+
+.container .main {
+	text-align: left;
+	display: inline-block;
+	width: 800px;
+}
+
+.container .main .flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+ol {
+	margin-left: 0em; /* サイトに合せて調整 */
+}
+
+ol li {
+	list-style-type: none;
+	counter-increment: cnt;
+	position: relative;
+}
+
+ol li:before {
+	content: "[" counter(cnt) "]";
+	display: inline-block;
+	margin-left: -3.5em; /* サイトに合せて調整 */
+	width: 3em; /* サイトに合せて調整 */
+	text-align: right;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
