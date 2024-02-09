@@ -26,12 +26,12 @@ hr {
 	align-items: end;
 }
 
-.container .header a{
+.container a{
 	text-decoration: none;
 	color: #111;
 }
 
-.container .header a:hover{
+.container a:hover{
 	text-decoration: underline;
 }
 
