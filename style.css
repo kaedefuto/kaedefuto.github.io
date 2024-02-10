@@ -6,7 +6,7 @@ hr {
 	border-radius: 50%;
     width: 210px;
     height: 210px;
-    margin: 30px 50px 0 50px;
+    margin: 50px 50px 0 50px;
     background-position: center;
     background-image: url(IMG_3593.JPG);
     background-size: cover;
@@ -44,10 +44,6 @@ hr {
 .container .main .flex{
 	display: flex;
 	justify-content: space-between;
-}
-
-.container .main .flex li{
-	list-style: none;
 }
 
 ol {
